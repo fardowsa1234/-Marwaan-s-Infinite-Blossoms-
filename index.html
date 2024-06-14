@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquet Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>"Marwaan's Infinite Blossoms"</h1>
+    </header>
+    <main>
+        <div class="flower-catalog">
+            <h2>Select Flowers</h2>
+            <div class="flower-list">
+                <div class="flower-item">
+                    <img src="/images/flower1.png" alt="Flower 1" class="flower" onclick="addFlower('flower1.png')">
+                    <p class="flower-quote">"Love is the flower you've got to let grow."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower2.png" alt="Flower 2" class="flower" onclick="addFlower('flower2.png')">
+                    <p class="flower-quote">"A life without love is like a year without summer."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower3.png" alt="Flower 3" class="flower" onclick="addFlower('flower3.png')">
+                    <p class="flower-quote">"The best thing to hold onto in life is each other."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower4.png❤️" alt="Flower 4" class="flower" onclick="addFlower('flower4.png')">
+                    <p class="flower-quote">"Love is the flower that blooms in adversity."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/Flower5.png" alt="Flower 5" class="flower" onclick="addFlower('flower5.png')">
+                    <p class="flower-quote">"You are my today and all of my tomorrows."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower6.png" alt="Flower 6" class="flower" onclick="addFlower('flower6.png')">
+                    <p class="flower-quote">"Love is composed of a single soul inhabiting two bodies."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower7.png" alt="Flower 7" class="flower" onclick="addFlower('flower7.png')">
+                    <p class="flower-quote">"The heart has its reasons which reason knows not."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower8.png" alt="Flower 8" class="flower" onclick="addFlower('flower8.png')">
+                    <p class="flower-quote">"You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower9.png" alt="Flower 9" class="flower" onclick="addFlower('flower9.png')">
+                    <p class="flower-quote">"Love isn't something you find. Love is something that finds you."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower10.png" alt="Flower 10" class="flower" onclick="addFlower('flower10.png')">
+                    <p class="flower-quote">"Love is a friendship set to music."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower11.png" alt="Flower 11" class="flower" onclick="addFlower('flower11.png')">
+                    <p class="flower-quote">"To love and be loved is to feel the sun from both sides."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower12.png" alt="Flower 12" class="flower" onclick="addFlower('flower12.png')">
+                    <p class="flower-quote">"The only thing we never get enough of is love; and the only thing we never give enough of is love."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower13.png" alt="Flower 13" class="flower" onclick="addFlower('flower13.png')">
+                    <p class="flower-quote">"Love is when the other person's happiness is more important than your own."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower14.png" alt="Flower 14" class="flower" onclick="addFlower('flower14.png')">
+                    <p class="flower-quote">"There is only one happiness in this life, to love and be loved."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower15.png" alt="Flower 15" class="flower" onclick="addFlower('flower15.png')">
+                    <p class="flower-quote">"Love is not only something you feel, it is something you do."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower16.png" alt="Flower 16" class="flower" onclick="addFlower('flower16.png')">
+                    <p class="flower-quote">"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower17.png" alt="Flower 17" class="flower" onclick="addFlower('flower17.png')">
+                    <p class="flower-quote">"The best love is the kind that awakens the soul."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower18.png" alt="Flower 18" class="flower" onclick="addFlower('flower18.png')">
+                    <p class="flower-quote">"To love and be loved is to feel the sun from both sides."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower20.png" alt="Flower 20" class="flower" onclick="addFlower('flower20.png')">
+                    <p class="flower-quote">"Love is a canvas furnished by nature and embroidered by imagination."</p>
+                </div>
+                <div class="flower-item">
+                    <img src="/images/flower21.png" alt="Flower 21" class="flower" onclick="addFlower('flower21.png')">
+                    <p class="flower-quote">"Love is the flower you've got to let grow."</p>
+                </div>
+                <!-- Add more flower items as needed -->
+            </div>
+        </div>
+        <div class="bouquet-canvas">
+            <h2>Your Bouquet</h2>
+            <div class="canvas" id="canvas"></div>
+            <button onclick="saveBouquet()">Save Bouquet</button>
+            <button class="delete-button" onclick="deleteBouquet()">Delete Bouquet</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
